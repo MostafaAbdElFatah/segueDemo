@@ -14,6 +14,7 @@
 		7140424E1F1C8F1C00D31583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7140424C1F1C8F1C00D31583 /* LaunchScreen.storyboard */; };
 		714042591F1C8F1C00D31583 /* ModelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714042581F1C8F1C00D31583 /* ModelDemoTests.swift */; };
 		714042641F1C8F1C00D31583 /* ModelDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714042631F1C8F1C00D31583 /* ModelDemoUITests.swift */; };
+		714042721F1C923E00D31583 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714042711F1C923E00D31583 /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7140425F1F1C8F1C00D31583 /* ModelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		714042631F1C8F1C00D31583 /* ModelDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDemoUITests.swift; sourceTree = "<group>"; };
 		714042651F1C8F1C00D31583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714042711F1C923E00D31583 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7140424A1F1C8F1C00D31583 /* Assets.xcassets */,
 				7140424C1F1C8F1C00D31583 /* LaunchScreen.storyboard */,
 				7140424F1F1C8F1C00D31583 /* Info.plist */,
+				714042711F1C923E00D31583 /* TutorialViewController.swift */,
 			);
 			path = ModelDemo;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				714042461F1C8F1C00D31583 /* ViewController.swift in Sources */,
+				714042721F1C923E00D31583 /* TutorialViewController.swift in Sources */,
 				714042441F1C8F1C00D31583 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
